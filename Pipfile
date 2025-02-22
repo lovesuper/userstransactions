@@ -1,0 +1,28 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[packages]
+fastapi = "0.115.8"
+sqlalchemy = "2.0.38"
+pydantic = "*"
+python-jose = "*"
+pytest-cov = "*"
+python-dotenv = "*"
+PyJWT = "2.10.1"
+environ-config = "24.1.0"
+uvicorn = "*"
+aiosqlite = "*"
+email-validator = "*"
+python-multipart = "*"
+greenlet = "*"
+
+[dev-packages]
+pytest-asyncio = "*"
+httpx = "*"
+flake8 = "*"
+flake8-black = "*"
+
+[requires]
+python_version = "3.12"
