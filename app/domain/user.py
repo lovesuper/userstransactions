@@ -10,7 +10,6 @@ from app.domain.mixins import JSONAPIMixin, Base
 class User(JSONAPIMixin, Base):
     __tablename__ = "users"
     __table_args__ = (
-        Index('ix_users_username', "username"),
         Index('ix_users_verified', "verified"),
         Index('ix_users_is_deleted', "is_deleted"),
     )
